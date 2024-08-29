@@ -1,0 +1,9 @@
+name: MySQLPlayerDataSync
+version: '1.1-Release'
+main: net.junsuzu.mySQLPlayerDataSync.MySQLPlayerDataSync
+api-version: '1.20'
+prefix: MySQLPDS
+authors: [ JUN-SUZU, AZ_owt ]
+description: It get player's inventory and ender chest, then read or write on mysql server.
+website: workshop.jun-suzu.net
+depend: [NBTAPI]
